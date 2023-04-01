@@ -6,29 +6,29 @@ const axios = require('axios').default;
 const { Videogame, Genre } = require('../db');
 
 
-//TODO -----> GET a "/videogames" <--------
+//TODO con el metodo -----> GET a "/videogames" <--------
 
 router.get('/', async (req, res) => {
-    //busco en la DB si tengo juegos creados y me traigo todos
+    //busco en la DB si ya tengo juegos creados y me traigo todos
     let videogamesDb = await Videogame.findAll({
         include: Genre
     });
-    //Parseo el objeto
+    //Parseo a el objeto
     videogamesDb = JSON.stringify(videogamesDb);
     videogamesDb = JSON.parse(videogamesDb);
-    //Aca dejo el arreglo de generos plano con solo los nombres de cada genero(llega array de objetos)
+    //Aca dejo el arreglo de generos plano con solo los nombres de cada genero( me llega un array de objetos)
     videogamesDb = videogamesDb.reduce((acc, el) => acc.concat({
         ...el,
         genres: el.genres.map(g => g.name)
     }), [])
     
     //TODO QUERIES --------> GET /videogames?name="..." <-----------
-    // si llegan queries "name" lo agarro por aca
+    // si me llegan queries "name" lo agarro por aca
     if (req.query.name) {
         try {
-            //busco si existe el juego en la API
+            //busco si ya existe el juego en la API
             let response = await axios.get(`https://api.rawg.io/api/games?search=${req.query.name}&key=${API_KEY}`);
-            if (!response.data.count) return res.status(204).json(`Juego no encontrado "${req.query.name}"`);
+            if (!response.data.count) return res.status(204).json(`Game not Find "${req.query.name}"`);
             //filtro SOLO la data que necesito para enviarle al front
             const gamesREADY = response.data.results.map(game => {
                 return{
@@ -42,8 +42,8 @@ router.get('/', async (req, res) => {
 
             //como antes me traje TODOS de la base de datos, si entro por queries, solo filtro los que coincidan con la busqueda
             const filteredGamesDb = videogamesDb.filter(g => g.name.toLowerCase().includes(req.query.name.toLowerCase()));
-            //doy prioridad a la DB, y sumo todos, y corto el array en 15
-            const results = [...filteredGamesDb, ...gamesREADY.splice(0, 15)];
+            //doy prioridad a la DB, y sumo todos, y corto el array en 10
+            const results = [...filteredGamesDb, ...gamesREADY.splice(0, 10)];
             return res.json(results)
         } catch (err) {
             return console.log(err)

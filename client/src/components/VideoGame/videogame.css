@@ -5,8 +5,8 @@
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgb(77, 247, 10);
-    box-shadow: 6px 5px 9px 4px #108f1b;
+    background-color: rgb(6, 130, 247);
+    box-shadow: 6px 5px 9px 4px #086661;
 
 }
 
@@ -37,7 +37,7 @@
     margin-bottom: 20px;
     font-size:x-large;
     font-weight: 600;
-    color: #1411d1;
+    color: #01000a;
 }
 
 .infoContGenres {
@@ -65,12 +65,12 @@ button {
     width: 120px;
     height: 40px;
     border-radius: 20px;
-    box-shadow: 3px 2px 3px 1px #1411d1;
+    box-shadow: 3px 2px 3px 1px #0f62a7;
 }
 
 .Link:hover {
-    background-color: rgb(22, 6, 236);
-    color: rgb(248, 247, 250);
+    background-color: rgb(22, 78, 201);
+    color: rgb(38, 14, 177);
 }
 
 @keyframes myAnim {

@@ -7,7 +7,7 @@ const videogames = require('./videogames');
 const videogame = require('./videogame');
 const genres = require('./genres');
 
-//Configuro todos los routers
+//Configuracion de todos los routers
 router.use('/videogames', videogames);
 router.use('/genres', genres);
 router.use('/videogame', videogame);

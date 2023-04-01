@@ -9,11 +9,12 @@
         font-family: 'Press Start 2P';
         padding: 10px;
         margin: 20px;
-        border-radius: 20px;
-        background-color: rgb(25, 233, 6);
+        border-radius: 15px;
+        background-color: rgb(9, 233, 58);
+        box-shadow: 5px;
 }
 
 .navbarestilo button:hover {
         background-color: black;
-        color:rgb(7, 235, 26)
+        color:rgb(179, 187, 180)
 }
