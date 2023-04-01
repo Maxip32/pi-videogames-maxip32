@@ -1,0 +1,13 @@
+.games-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.not {
+    width: 800px;
+}
+
+.loading {
+    width: 500px;
+}

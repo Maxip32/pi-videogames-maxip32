@@ -1,0 +1,88 @@
+.container-game {
+    
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(77, 247, 10);
+    box-shadow: 6px 5px 9px 4px #108f1b;
+
+}
+
+.container-game:hover {
+    animation: myAnim 2s ease 0s 1 normal forwards;;
+    cursor: pointer;
+}
+
+.game-div {
+    display: flex;
+    margin: 10px;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.game-div img {
+    object-fit: cover;
+    width: 100%;
+    min-height: 100%;
+    border-radius: 10px;
+}
+
+.title-game {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size:x-large;
+    font-weight: 600;
+    color: #1411d1;
+}
+
+.infoContGenres {
+    display: flex;
+    justify-content: center;
+}
+
+.infoRating {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.Link {
+    font-family: 'Press Start 2P';
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 2px 3px 1px #1411d1;
+}
+
+.Link:hover {
+    background-color: rgb(22, 6, 236);
+    color: rgb(248, 247, 250);
+}
+
+@keyframes myAnim {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.1);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }

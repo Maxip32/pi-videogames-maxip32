@@ -1,0 +1,92 @@
+.main-add {
+    display: flex;
+    justify-content: center;
+    background: #fff url('../../img/crear.jpg') center center/cover no-repeat;
+
+}
+
+.container-add {
+
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+    width: 800px;
+    height: 650px;
+}
+
+.container-add h2 {
+    
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: xx-large;
+    color:black
+}
+
+.div-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.genres-div {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width:650px;
+    border-radius: 10px;
+    background-color: rgb(241, 154, 22);
+}
+
+.plat-div {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width:650px;
+    border-radius: 10px;
+    background-color: rgb(241, 154, 22);
+}
+
+.container-add label {
+    font-size: large;
+    margin: 3px;
+}
+
+.name{
+    height: 25px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.dt {
+    height: 25px;
+    width: 120px;
+    border-radius: 30px;
+}
+
+.div-but-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.div-but-form button {
+    font-family: 'Press Start 2P';
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: chartreuse;
+}
+
+.div-but-form button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.container-add input {
+    background-color: rgb(241, 154, 22);
+}
+
+.container-add textarea {
+    background-color: rgb(241, 154, 22);
+}
