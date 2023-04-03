@@ -13,7 +13,7 @@
     padding: 10px;
     margin: 20px;
     border-radius: 20px;
-    background-color: rgb(177, 223, 14);
+    background-color: rgb(177, 173, 173);
     font-weight: bolder;
     
 }
@@ -24,14 +24,14 @@
     padding: 10px;
     margin: 20px;
     width: 380px;
-    background-color: rgb(79, 236, 74);
+    background-color: rgb(198, 204, 198);
     border-radius: 10px;
     font-weight: bolder;
 }
 
 .buton:hover {
     background-color: black;
-    color: rgb(14, 245, 6);
+    color: rgb(208, 211, 208);
 }
 
 .bar-btn:hover {

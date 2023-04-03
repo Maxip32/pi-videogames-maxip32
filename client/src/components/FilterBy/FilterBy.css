@@ -14,12 +14,12 @@
 
 .option {
     margin: 5px;
-    font-family : Pixel;
+    font-family: 'Courier New', Courier, monospace;
     src : url "../../../src/FuenteButon/Pixel.ttf";
 }
 
 .optionGroup {
     padding: 10px;
-    font-family : Pixel;
+    font-family : 'Courier New', Courier, monospace;
     src : url "../../../src/FuenteButon/Pixel.ttf";
 }

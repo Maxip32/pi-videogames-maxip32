@@ -26,22 +26,20 @@ export default function Pagination({ cardPerPage, totalCards, paginate, currentP
                     {p}
                   </button>
 
-                 
                 </li>
               ) : (
                 <li key={i}>
-                  
-
                   <button className="pag-buton" onClick={() => paginate(p)}>
                     {p}
                   </button>
-
-                 
-                </li>
+                  </li>
               )
             )}
         </ul>
-        
       </div>
     );
 }
+                 
+                  
+
+        

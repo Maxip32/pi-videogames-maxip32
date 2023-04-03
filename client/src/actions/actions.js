@@ -37,7 +37,7 @@ export function searchByName(name) {
   };
 }
 
-//* Trae los detalles del juego por pasado por (params :ID)
+//* Trae los detalles del juego pero pasado por (params :ID)
 export function getVideogameDetail(id) {
   return function (dispatch) {
     axios
