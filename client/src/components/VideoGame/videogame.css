@@ -5,15 +5,16 @@
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgb(6, 130, 247);
-    box-shadow: 6px 5px 9px 4px #086661;
+    /* background-color: rgb(6, 130, 247); */
+    box-shadow: 7px 5px 8px 8px #f5c906;
+    background-image: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
 
 }
 
-.container-game:hover {
+/* .container-game:hover {
     animation: myAnim 2s ease 0s 1 normal forwards;;
     cursor: pointer;
-}
+} */
 
 .game-div {
     display: flex;
@@ -86,3 +87,6 @@ button {
       transform: scale(1);
     }
   }
+
+  
+    

@@ -6,12 +6,14 @@
 }
 
 .navbarestilo button{
-        font-family: 'Press Start 2P';
+        font-family : Pixel;
+        src : url "../../../src/FuenteButon/Pixel.ttf";
         padding: 10px;
         margin: 20px;
-        border-radius: 15px;
+        border-radius: 20px;
         background-color: rgb(9, 233, 58);
         box-shadow: 5px;
+        font-weight: bolder;
 }
 
 .navbarestilo button:hover {

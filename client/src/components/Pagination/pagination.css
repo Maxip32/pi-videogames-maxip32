@@ -1,4 +1,6 @@
-.pagestile {
+.pagestile{
+    
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,22 +13,48 @@ ul {
 
 li {
     list-style:none;
-    margin: 20px;
+    margin: 30px;
     width: 40px;
 }
 
 .pag-buton {
     font-family: 'Press Start 2P';
-    font-size: larger;
-    width: 50px;
+    font-size: medium;
+    width: 45px;
     height: 50px;
-    border-radius: 30px;
+    border-radius: 100px;
     background-color: rgb(10, 64, 211);
-    color:rgb(12, 0, 0)
+    color:rgb(12, 0, 0);
+    display: inline-block;
+    background-color: #4CAF50;
+  color: rgb(0, 0, 0); 
+    
     
 }
 
 .pag-buton:hover {
-    background-color: rgb(229, 245, 5);
+    background-color: rgb(205, 238, 16);
     color:rgb(252, 3, 3)
 }
+.pag-butonselect {
+    background-color: #faa508;
+    color: rgb(250, 5, 209);
+  }
+  
+  .pag-buton:hover:not(.active) {background-color: #2706e2;}
+
+  .currentpage{
+
+    
+    /* display: flex;
+    flex-direction: row; */
+    left:20%;
+    top:200%;
+    text-size-adjust: 10;
+    font-size: medium;
+    color: #f50303;
+    background-color: #0d42f0;
+    box-shadow: none;
+    background-position-x: center;
+
+  }

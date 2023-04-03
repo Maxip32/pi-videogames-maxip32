@@ -8,20 +8,25 @@
 
 .buton {
     margin-left: 5px;
-    font-family: 'Press Start 2P';
+    font-family : Pixel;
+    src : url "../../../src/FuenteButon/Pixel.ttf";
     padding: 10px;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(177, 223, 14);
+    font-weight: bolder;
+    
 }
 
 .barbuton {
-    font-family: 'Press Start 2P';
+    font-family : Pixel;
+    src : url "../../../src/FuenteButon/Pixel.ttf";
     padding: 10px;
     margin: 20px;
     width: 380px;
     background-color: rgb(79, 236, 74);
     border-radius: 10px;
+    font-weight: bolder;
 }
 
 .buton:hover {

@@ -20,19 +20,28 @@ export default function Pagination({ cardPerPage, totalCards, paginate, currentP
             pageNumbers.map((p, i) =>
               p === currentPage ? (
                 <li key={i}>
-                  <button className="pag-buton" onClick={() => paginate(p)}>
+                  
+
+                  <button className="pag-butonselect" onClick={() => paginate(p)}>
                     {p}
                   </button>
+
+                 
                 </li>
               ) : (
                 <li key={i}>
+                  
+
                   <button className="pag-buton" onClick={() => paginate(p)}>
                     {p}
                   </button>
+
+                 
                 </li>
               )
             )}
         </ul>
+        
       </div>
     );
 }

@@ -7,16 +7,19 @@
     padding: 10px;
     margin: 20px;
     width: 400px;
-    font-family: 'Press Start 2P';
+    font-family : Pixel;
+    src : url "../../../src/FuenteButon/Pixel.ttf";
     border-radius: 20px;
 }
 
 .option {
     margin: 5px;
-    font-family: 'Press Start 2P';
+    font-family : Pixel;
+    src : url "../../../src/FuenteButon/Pixel.ttf";
 }
 
 .optionGroup {
     padding: 10px;
-    font-family: 'Press Start 2P';
+    font-family : Pixel;
+    src : url "../../../src/FuenteButon/Pixel.ttf";
 }

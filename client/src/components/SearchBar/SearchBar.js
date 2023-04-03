@@ -41,10 +41,10 @@ function SearchBar({searchByName, getAllGames}) {
           autoComplete="on"
         ></input>
         <button className="buton" onClick={handleOnClick}>
-          Find
+          FIND
         </button>
         <button className="buton" onClick={handleOnClickAll}>
-          ChargeAll-Games
+          ALL - GAMES
         </button>
       </div>
     );
