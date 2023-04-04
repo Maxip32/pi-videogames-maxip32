@@ -20,8 +20,8 @@
     display: flex;
     margin: 10px;
     overflow: hidden;
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     
 }
 
@@ -38,7 +38,7 @@
     margin-bottom: 20px;
     font-size:x-large;
     font-weight: 600;
-    color: #01000a;
+    color: #000000;
 }
 
 .infoContGenres {
@@ -62,7 +62,7 @@ button {
 }
 
 .Link {
-    font-family: 'Press Start 2P';
+    font-family: Arial, Helvetica, sans-serif;
     width: 120px;
     height: 40px;
     border-radius: 20px;

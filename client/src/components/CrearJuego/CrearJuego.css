@@ -17,7 +17,7 @@
 .container-add h2 {
     
     text-align: center;
-    font-family: 'Press Start 2P';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     color:black
 }
@@ -34,7 +34,7 @@
     border: 1px solid black;
     width:650px;
     border-radius: 10px;
-    background-color: rgb(241, 154, 22);
+    background-color: rgb(221, 238, 73);
 }
 
 .plat-div {
@@ -44,7 +44,7 @@
     border: 1px solid black;
     width:650px;
     border-radius: 10px;
-    background-color: rgb(241, 154, 22);
+    background-color: rgb(209, 155, 73);
 }
 
 .container-add label {
@@ -71,11 +71,11 @@
 }
 
 .div-but-form button {
-    font-family: 'Press Start 2P';
+    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     margin: 20px;
     border-radius: 20px;
-    background-color: chartreuse;
+    background-color: rgb(186, 189, 183);
 }
 
 .div-but-form button:hover {
@@ -84,9 +84,9 @@
 }
 
 .container-add input {
-    background-color: rgb(241, 154, 22);
+    background-color: rgb(238, 206, 157);
 }
 
 .container-add textarea {
-    background-color: rgb(241, 154, 22);
+    background-color: rgb(224, 186, 129);
 }
