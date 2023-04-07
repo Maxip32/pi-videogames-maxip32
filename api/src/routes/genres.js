@@ -9,7 +9,7 @@ const { Genre } = require('../db');
 
 router.get('/', async (req, res) => {
     try {
-        // si ya los tengo cargados en la DB los consumo desde alli.
+        // si ya los tengo cargados en la DB los uso desde alli.
         const genresDb = await Genre.findAll();
         if (genresDb.length) return res.json(genresDb)
         

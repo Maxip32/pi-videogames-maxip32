@@ -192,7 +192,7 @@ function CrearJuego(props) {
                             </div>
                             <div>
                                 <input name='macOS' type="checkbox" id="macOS" />
-                                <label htmlFor="macOS">macOS.</label>
+                                <label htmlFor="macOS">MacOS.</label>
                             </div>
                             <div>
                                 <input name='PlayStation 4' type="checkbox" id="PlayStation 4" />
@@ -213,7 +213,7 @@ function CrearJuego(props) {
                         </div>
                         <br />
                         <div className="div-but-form">
-                        <button type='submit'>Create</button>
+                        <button type='submit'>Finish Create</button>
                         </div>
                     </form>
                 </div>
