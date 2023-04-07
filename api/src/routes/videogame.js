@@ -13,7 +13,7 @@ const { Videogame, Genre } = require('../db');
 router.get('/:idVideogame', async (req, res) => {
     const { idVideogame } = req.params
     
-    //verifico si es un juego que ya esta creado y me traigo el detalle de la DB
+    //verifico si es un juego que ya esta creado y guardado y me traigo el detalle de la DB
     if (idVideogame.includes('-')) {
         let videogameDb = await Videogame.findOne({
             where: {
