@@ -58,7 +58,7 @@ router.post('/', async (req, res) => {
     let { name, description, releaseDate, rating, genres, platforms } = req.body;
     platforms = platforms.join(', ')
     try {
-        const gameCreated = await Videogame.findOrCreate({ //devuelvo un array (no es objeto)
+        const gameCreated = await Videogame.findOrCreate({ //devuelvo un array.
             where: {
                 name,
                 description,
